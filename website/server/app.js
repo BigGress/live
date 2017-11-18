@@ -14,7 +14,7 @@ const server = http.Server(app);
 const io = socket(server);
 
 server.listen(3000, () => {
-    console.log(`listening http://localhost:3000`);
+    console.log(`listening https://localhost:8081/play`);
 });
 
 let players = [];
